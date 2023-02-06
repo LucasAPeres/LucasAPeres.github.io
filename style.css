@@ -11,7 +11,7 @@ body {
     align-items: center;
     height: 67vh;
     width: 100vw;
-    background-image: url(imagens/fundo.jpg);
+    background-image: url(fundo.jpg);
 }
 
 .caixa-maior {
