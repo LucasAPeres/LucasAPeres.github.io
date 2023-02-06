@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67vh;
+    width: 100vw;
+    background-image: url(imagens/fundo.jpg);
+}
+
+.caixa-maior {
+    height: auto;
+    width: 90%;
+    max-width: 380px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 12px;
+    opacity: 0.7;
+}
+
+input {
+    border: none;
+    border-top: 6px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    padding: 3px;
+    background-color:#7c7c7c42;
+    color: #ffffff;
+    width: calc(100% - 70px);
+    font-size: 20px;
+}
+
+button {
+    outline: none;
+    border-radius: 90px;
+    padding: 8px;
+    background-color:#7c7c7c42;
+    opacity: 0.75;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #929292ae;
+}
+
+.lupa {
+    height: 15px;
+    width: 17px;
+}
+
+.caixa-media {
+    color: rgb(255, 255, 255);
+}
+
+.city {
+    margin-top: 25px;
+    font-size: 27px;
+}
+
+.temp {
+    margin-top: 20px;
+    
+}
+
+.desc {
+    text-transform: capitalize;
+}
+
+.icone{
+    align-content: left;
+}
+
+.umid {
+    margin-top: 10px;
+}
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.relogio{
+    font-size: 14px;
+}
+.bsb{
+    margin-top: 25px;
+    font-size: 14px;
+}
